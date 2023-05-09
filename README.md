@@ -1,1 +1,2 @@
-# VSD_HDP
+Day 0:
+Creating GitHub using GitHub.com
