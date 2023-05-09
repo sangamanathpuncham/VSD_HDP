@@ -16,3 +16,7 @@ gtkwave
 
 magic
 
+yosys
+Befor install the yosys use following
+
+
