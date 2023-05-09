@@ -23,6 +23,7 @@ yosys
 Befor install the yosys use following
 
 
+
 ![1](https://user-images.githubusercontent.com/132802184/237009900-f1137ffa-22e2-424f-ab96-d0deaf951d55.PNG)
 
 $ git clone https://github.com/YosysHQ/yosys.git
@@ -44,6 +45,7 @@ $ make
 $ sudo make install
 
 
+![5](https://user-images.githubusercontent.com/132802184/237016792-16691208-6beb-40e9-b807-0ef341daaca6.PNG)
 
 OpenSTA
 ---
