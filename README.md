@@ -49,7 +49,33 @@ $ sudo make install
 
 OpenSTA
 ---
+To install cmake for other than 18.04 version
 
+$ wget -O - https://apt.kitware.com/keys/kitware-archive-latest.asc 2>/dev/null | sudo apt-key add -
+
+$ sudo apt-add-repository 'deb https://apt.kitware.com/ubuntu/ bionic main'
+
+$ sudo apt-get update
+
+$ sudo apt-get upgrade
+
+
+$ sudo apt install swig
+
+$ git clone https://github.com/The-OpenROAD-Project/OpenSTA.git
+
+$ cd OpenSTA
+
+$ mkdir build
+
+$ cd build
+
+$ cmake ..
+
+$ make
+
+
+![6](https://user-images.githubusercontent.com/132802184/237019425-50a85b13-7c6d-4b17-b306-8c69bb2e0576.PNG)
 
 
 ngspice
