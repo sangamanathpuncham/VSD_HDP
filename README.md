@@ -7,7 +7,12 @@ Installation of following Tools:
 yosys
 
 OpenSTA
+
 ngspice 
+
 iverilog
+
 gtkwave
+
 magic
+
