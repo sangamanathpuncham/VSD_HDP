@@ -136,6 +136,22 @@ $   sudo apt-get install mesa-common-dev libglu1-mesa-dev
 
 $   sudo apt-get install libncurses-dev
 
+Day:1
+----
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/96f91d78-ebe6-4af2-8d49-b05b0421567a)
+
+
+good_mux
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e876725b-fc60-4a12-bb50-2b83821b41d6)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/3f0f0697-22d4-417f-9ba0-f8531efa2eda)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d6580e7c-6598-40ad-9ef2-2dc629ae13e0)
+
 
 
 
