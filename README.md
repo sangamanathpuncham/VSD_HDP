@@ -141,6 +141,8 @@ Day:1
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/96f91d78-ebe6-4af2-8d49-b05b0421567a)
 
+RTL Simulation
+---
 
 good_mux
 ---
@@ -152,6 +154,8 @@ good_mux
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d6580e7c-6598-40ad-9ef2-2dc629ae13e0)
 
+Logic Synthesis
+---
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/74a6c661-5109-41a9-8172-8ebcdfceb81e)
 
