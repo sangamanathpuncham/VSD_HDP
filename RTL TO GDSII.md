@@ -199,7 +199,7 @@ synth -top multiple_modules
 
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.li
 
-show
+show multiple_modules
 
 write_verilog -noattr multiple_modules_hier.v
 
@@ -240,4 +240,29 @@ Netlist
 ---
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/13da41b4-2180-4a27-8d4e-2490fcf492ea)
+
+
+Sub Module Level Synthesis:
+---
+
+yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog multiple_modules.v
+
+synth -top sub_module1
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.li
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f47ee4e7-e66c-4136-ae43-cb052924f3e0)
+
+
+
+
+
+
+
 
