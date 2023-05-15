@@ -204,7 +204,7 @@ write_verilog -noattr multiple_modules_hier.v
 
 !gedit multiple_modules_hier.v
 
-multiple_modules:
+multiple_modules(hierachical):
 ---
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/44f36db8-fbe2-48ed-86da-088e06f543a9)
 
@@ -214,6 +214,15 @@ netlist
 
 Flatten
 ---
+yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog multiple_modules.v
+
+synth -top multiple_modules
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.li
 
 flatten
 
@@ -221,6 +230,12 @@ write_verilog -noattr multiple_modules_flat.v
 
 !gedit multiple_modules_flat.v
 
+multiple modules(flat):
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b1e43ab3-d80a-4633-a54a-0c60602c45d0)
+
+
+netlist
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/13da41b4-2180-4a27-8d4e-2490fcf492ea)
 
