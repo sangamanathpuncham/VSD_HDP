@@ -182,9 +182,9 @@ Day:2
 ---
 Heirachical and Flat synthesis:
 ---
-gedit multiple_modules.v
+Multiple_modules.v
 ---
-
+gedit multiple_modules.v
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5d3867bf-1e9d-419f-9156-25b3200892f4)
 
 Hierachical
