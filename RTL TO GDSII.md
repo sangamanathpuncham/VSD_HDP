@@ -235,7 +235,8 @@ multiple modules(flat):
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b1e43ab3-d80a-4633-a54a-0c60602c45d0)
 
 
-netlist
+Netlist
+---
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/13da41b4-2180-4a27-8d4e-2490fcf492ea)
 
