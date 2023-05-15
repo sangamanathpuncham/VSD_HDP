@@ -262,7 +262,15 @@ show
 
 Simulation and Synthesis of Flops
 ---
+iverilog simulation commands for asynchronous reset:
 
+iverilog dff_asyncres.v tb_dff_asyncres.v
+
+./a.out
+
+gtkwave tb_dff_asyncres.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b84ce639-216b-45ce-bbe0-0178ccd7ccdf)
 
 
 
