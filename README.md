@@ -178,9 +178,39 @@ Logic Synthesis
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/16fcbc0b-976d-43de-be22-d2b165a0c562)
 
+Day:2
+---
+Heirachical and Flat synthesis:
+---
+gedit multiple_modules.v
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5d3867bf-1e9d-419f-9156-25b3200892f4)
 
+Hierachical
+----
+yosys
 
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog multiple_modules.v
+
+synth -top multiple_modules
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.li
+
+show
+
+write_verilog -noattr multiple_modules_hier.v
+
+!gedit multiple_modules_hier.v
+
+multiple_modules:
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/44f36db8-fbe2-48ed-86da-088e06f543a9)
+
+netlist
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/12a14c19-7c01-4203-ab88-755061d9b17a)
 
 
 
