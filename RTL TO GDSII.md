@@ -272,7 +272,10 @@ gtkwave tb_dff_asyncres.vcd
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b84ce639-216b-45ce-bbe0-0178ccd7ccdf)
 
+Note:
 
+1)Q goes high when the clock goes high
 
+2)Q goes low once the asynchronous reset goes to high
 
 
