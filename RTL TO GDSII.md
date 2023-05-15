@@ -212,5 +212,15 @@ netlist
 ---
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/12a14c19-7c01-4203-ab88-755061d9b17a)
 
+Flatten
+---
 
+flatten
+
+write_verilog -noattr multiple_modules_flat.v
+
+!gedit multiple_modules_flat.v
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/13da41b4-2180-4a27-8d4e-2490fcf492ea)
 
