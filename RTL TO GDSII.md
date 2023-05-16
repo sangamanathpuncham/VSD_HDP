@@ -280,11 +280,11 @@ Note:
 
 Interesting Optimization:
 ---
+1)Mul2 and Mul8
+---
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/3bd5a1a2-4f72-44e8-803c-9575c07f46f4)
 
-
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d38395f1-3cee-4293-9eb6-88cc0feeff29)
 
 
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
@@ -297,9 +297,13 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/831961a2-5f0c-429c-80e6-341877d2c8e8)
+
+show
+
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7b77ce43-7905-45fa-b5fa-92647044177d)
 
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/13e0da55-ec8b-4b01-8e39-5e90aab3e497)
+
 
 
 
