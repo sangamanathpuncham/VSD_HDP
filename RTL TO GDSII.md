@@ -343,6 +343,9 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/6d08f2ca-b09c-4da3-b8f6-aadf8f7fa3d8)
+
+
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/990fac55-392a-4391-885e-800af8d3b398)
 
 after optimization:
@@ -353,6 +356,9 @@ opt_clean -purge
 abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/cfab2a2b-563c-43e5-b4cc-9b27bdc79247)
+
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f1a024e1-53a1-430a-897b-70f491bb0d3b)
 
