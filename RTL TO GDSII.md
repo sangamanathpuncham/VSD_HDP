@@ -253,7 +253,7 @@ read_verilog multiple_modules.v
 
 synth -top sub_module1
 
-abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.li
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 show
 
@@ -277,5 +277,30 @@ Note:
 1)Q goes high when the clock goes high
 
 2)Q goes low once the asynchronous reset goes to high
+
+Interesting Optimization:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/3bd5a1a2-4f72-44e8-803c-9575c07f46f4)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d38395f1-3cee-4293-9eb6-88cc0feeff29)
+
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog mult_2
+
+synth -top mul2
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7b77ce43-7905-45fa-b5fa-92647044177d)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/13e0da55-ec8b-4b01-8e39-5e90aab3e497)
+
+
 
 
