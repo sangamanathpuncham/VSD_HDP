@@ -327,6 +327,35 @@ Introduction to Logic Optimization:
 ---
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/bb3115db-37f1-42fd-9d3e-ef30414c7158)
 
+ex: opt_check
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a9fb5524-3008-4146-a3a9-07d629567559)
+
+before opt
+---
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog opt_check.v
+
+synth -top opt_check
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/990fac55-392a-4391-885e-800af8d3b398)
+
+after optimization:
+---
+
+opt_clean -purge
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f1a024e1-53a1-430a-897b-70f491bb0d3b)
+
 
 
 
