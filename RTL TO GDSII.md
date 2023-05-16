@@ -321,6 +321,14 @@ show
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a22f597e-01da-451d-9470-454b49531f2c)
 
 
+Day 3:
+---
+Introduction to Logic Optimization:
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/bb3115db-37f1-42fd-9d3e-ef30414c7158)
+
+
+
 
 
 
