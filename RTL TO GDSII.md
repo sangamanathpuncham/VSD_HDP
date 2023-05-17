@@ -485,3 +485,30 @@ show
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a6cc9741-c74b-4b2b-a643-a6205ad0e374)
 
 
+Seq optimization unused outputs
+----
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/12776c5b-ee47-4c0e-9fdc-cfc9c12bb607)
+
+counter_opt1
+---
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog counter_opt1.v
+
+synth -top counter_opt
+
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b3ecf6a8-d07d-4a73-80dd-ca5397174cfd)
+
+counter_opt
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/43a54a01-4e13-4e26-abef-c848499413dc)
+
