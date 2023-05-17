@@ -362,6 +362,22 @@ show
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f1a024e1-53a1-430a-897b-70f491bb0d3b)
 
+opt_check2.v
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/07c15588-5703-4a06-9413-9fc755a47b8e)
+
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog opt_check2.v
+
+synth -top opt_check2
+
+opt_clean -purge
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/53cebc83-867a-4397-9ab2-9437bbba32f3)
 
 
 
