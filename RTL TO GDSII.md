@@ -457,4 +457,31 @@ dff_const2
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b812d30b-bdbf-4cc8-b142-b0be1168264b)
 
 
+dff_const3
+---
+
+iverilog dff_cont1.v tb_dff_const3.v
+
+./a.out
+
+gtkwave dff_cont3.vcd
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/858c61bb-7f1d-4529-80ac-516a2f1f4c16)
+
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog dff_const3.v
+
+synth -top dff_const3
+
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a6cc9741-c74b-4b2b-a643-a6205ad0e374)
+
 
