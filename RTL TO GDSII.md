@@ -379,7 +379,23 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/53cebc83-867a-4397-9ab2-9437bbba32f3)
 
+opt_check3
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/8bfecffa-b1e6-4e5e-bbf4-80b9a139143d)
 
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog opt_check3.v
+
+synth -top opt_check3
+
+opt_clean -purge
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0d5f6157-0847-4dda-a531-04ec13f17a85)
 
 
 
