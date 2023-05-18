@@ -716,7 +716,8 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
  
 show
 
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/64a79531-20b7-493d-8cb2-fb9f8b7734de)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/33119764-aed9-4f16-852a-f3382b63ad5e)
+
 
 
 
