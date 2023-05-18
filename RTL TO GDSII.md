@@ -521,8 +521,43 @@ Gate lavel simulation and Synthesis simulation mismatch:
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/900a4416-a53b-47a1-a1df-5dab31f11482)
 
+iverilog ternary_operator_mux.v tb_ternary_operator_mux.v
+
+./a.out
+
+gtkwave tb_ternary_operator_mux.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/818de844-cc46-4876-85fc-8f60d9c944ea)
 
 
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog ternary_operator_mux.v
+
+synth -top ternary_operator_mux
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+write_verilog -noattr ternary_operator_net.v
+
+show
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/772b5404-8d24-4fe6-a786-250686bf8063)
+
+Gate level simulation:
+---
+
+setup required:
+---
+
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v ternary_operator_net.v tb_ternary_operator_mux.v
+
+./a.out
+
+ gtkwave tb_ternary_operator_mux.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f787159d-534e-4068-8f9d-63516af0bba8)
 
 
 
