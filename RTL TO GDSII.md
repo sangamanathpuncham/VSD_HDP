@@ -518,7 +518,8 @@ Day 4:
 
 Gate lavel simulation and Synthesis simulation mismatch:
 ----
-
+1)Ternary_operator:
+---
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/900a4416-a53b-47a1-a1df-5dab31f11482)
 
 iverilog ternary_operator_mux.v tb_ternary_operator_mux.v
@@ -559,9 +560,42 @@ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f787159d-534e-4068-8f9d-63516af0bba8)
 
+2)Bad_mux
+---
+
+iverilog bad_mux.v tb_bad_mux.v
+
+./a.out
+
+gtkwave tb_bad_mux.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/31efbb5d-db60-4055-9617-017ae4d74aed)
+
+yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog bad_mux.v
+
+synth -top bad_mux
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+write_verilog -noattr bad_mux_net1.v
 
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f461ea88-eb0d-4f5c-bef8-a7f52ca5bf81)
 
+GLS
+---
+
+ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v bad_mux_net1.v tb_bad_mux.v
+
+ ./a.out
+
+ gtkwave tb_bad_mux.vcd
+ 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/8ac34205-5fdf-4354-b167-3f4cc35dfd0b)
 
 
 
