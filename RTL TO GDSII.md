@@ -691,6 +691,8 @@ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 Incomplete case statement:
 ---
 
+1)incomp_case
+
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/04620f7f-8d07-4d48-af87-aa7565fa6a37)
 
 iverilog incomp_case.v tb_incomp_case.v
@@ -715,3 +717,10 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 show
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/64a79531-20b7-493d-8cb2-fb9f8b7734de)
+
+
+
+
+
+
+
