@@ -638,6 +638,7 @@ Both if and case statement inferes the mux but incomplete case and if gives rais
 Incomplete if :
 ---
 
+1)incomp_if
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/1ee4852c-f355-4c94-8fb6-5d28f6547152)
 
@@ -653,22 +654,39 @@ yosys
 
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
- read_verilog incomp_if
+ read_verilog incomp_if.v
  
  synth -top incomp_if
  
  abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
  
-  show
+ show
   
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e9282d34-d3d2-4124-a961-91fd8cac18f8)
 
+2)incomp_if2
 
+iverilog incomp_if.v tb_incomp_if.v
 
+./a.out
 
+gtkwave tb_incomp_if.vcd
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/93840160-d792-4498-a8f7-cf917dc95b44)
 
+yosys
 
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+ read_verilog incomp_if2.v
+ 
+ synth -top incomp_if2
+ 
+ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ 
+ show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5f29a3d1-ce02-4a6a-a3a3-d749a4c44c02)
 
 
 
