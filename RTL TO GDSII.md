@@ -719,9 +719,24 @@ show
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/33119764-aed9-4f16-852a-f3382b63ad5e)
 
 
+2)partial case:
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/4cf0773f-000d-400e-baf4-f7417afdc141)
 
 
+yosys
 
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog partial_case_assign.v
+ 
+synth -top partial_case_assign
+ 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ 
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/38c3fd11-5eee-4dca-8816-1a8086abc013)
 
 
 
