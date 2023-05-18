@@ -512,3 +512,25 @@ counter_opt
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/43a54a01-4e13-4e26-abef-c848499413dc)
 
+
+Day 4:
+---
+
+Gate lavel simulation and Synthesis simulation mismatch:
+----
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/900a4416-a53b-47a1-a1df-5dab31f11482)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
