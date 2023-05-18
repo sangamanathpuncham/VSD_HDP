@@ -600,6 +600,28 @@ GLS
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/8ac34205-5fdf-4354-b167-3f4cc35dfd0b)
 
 
+> Mismatch is due to blocking statement
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e473f824-5a9d-4eb7-a3f0-75d5f11c17bc)
+
+iverilog blocking_caveat.v tb_block_caveat.v
+
+./a.out
+
+gtkwave tb_blocking_caveat.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0d2e412b-e585-40f5-80f9-3dc5838a17ce)
+
+GLS
+---
+
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v blocking_caveat_net.v tb_blocking_caveat.v
+
+./a.out
+
+gtkwave tb_blocking_caveat.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/de6a1dbb-0bda-4f37-b815-504e1b9b155c)
 
 
 
