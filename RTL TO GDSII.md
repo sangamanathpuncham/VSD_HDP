@@ -518,6 +518,8 @@ Day 4:
 
 Gate lavel simulation and Synthesis simulation mismatch:
 ----
+simulation mismatch due to activity signal in the @always(.....)
+
 1)Ternary_operator:
 ---
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/900a4416-a53b-47a1-a1df-5dab31f11482)
