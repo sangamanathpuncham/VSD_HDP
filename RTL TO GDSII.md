@@ -688,5 +688,30 @@ read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5f29a3d1-ce02-4a6a-a3a3-d749a4c44c02)
 
+Incomplete case statement:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/04620f7f-8d07-4d48-af87-aa7565fa6a37)
+
+iverilog incomp_case.v tb_incomp_case.v
+
+./a.out
+
+gtkwave tb_incomp_case.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d128ad2c-a6d3-4faf-8ad9-543a8afff055)
 
 
+yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog incomp_case.v
+ 
+synth -top incomp_case
+ 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ 
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/64a79531-20b7-493d-8cb2-fb9f8b7734de)
