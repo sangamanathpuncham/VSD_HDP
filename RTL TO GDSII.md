@@ -738,5 +738,30 @@ show
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/38c3fd11-5eee-4dca-8816-1a8086abc013)
 
+3)Bad_case
+
+
+iverilog bad_case.v tb_bad_case.v
+
+./a.out
+
+gtkwave tb_bad_case.vcd
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0c068677-8b20-4bde-84ad-70707f84ad69)
+
+yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog bad_case.v
+ 
+synth -top bad_case
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ 
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/29a81dbd-a4e9-4576-9876-a10cf46106de)
 
 
