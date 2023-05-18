@@ -626,6 +626,47 @@ gtkwave tb_blocking_caveat.vcd
 
 Day:5
 ---
+IF,CASE,FOR Loops for the Generate:
+----
+
+Both if and case statement inferes the mux but incomplete case and if gives raise to the latch formation.
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/865a5238-f1d2-410b-a707-b22c9e2c6c67)
+
+
+Incomplete if :
+---
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/1ee4852c-f355-4c94-8fb6-5d28f6547152)
+
+iverilog incomp_if.v tb_incomp_if.v
+
+./a.out
+
+ gtkwave tb_incomp_if.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/042b698e-ca6d-4ef6-b34b-fdba86576dd8)
+
+yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+ read_verilog incomp_if
+ 
+ synth -top incomp_if
+ 
+ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ 
+  show
+  
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e9282d34-d3d2-4124-a961-91fd8cac18f8)
+
+
+
+
+
 
 
 
