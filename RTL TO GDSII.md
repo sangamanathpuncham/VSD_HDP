@@ -906,4 +906,28 @@ iverilog rc.v tb_rc.v
 Synthesis:
 ---
 
+yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog rc.v
+ 
+synth -top bit3_rv
+
+dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ 
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+ 
+show
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/2fbe432d-3763-4dc1-932e-f2c8ff059e9a)
+
+GLS:
+---
+
+
+
+
+
 
