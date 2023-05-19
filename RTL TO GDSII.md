@@ -920,8 +920,7 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
  
 show
 
-
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/2fbe432d-3763-4dc1-932e-f2c8ff059e9a)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/03cb79b8-ff29-4ed4-a774-c47dd2cfcbe9)
 
 GLS:
 ---
