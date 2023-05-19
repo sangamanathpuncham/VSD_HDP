@@ -810,3 +810,16 @@ write_verilog -noattr demux_generate_net.v
 show
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e920d8d2-a982-4683-a379-0fe32b10e2f7)
+
+GLS:
+---
+
+ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v demux_generate_net.v tb_demux_generate.v
+
+./a.out
+
+gtkwave tb_demux_generate.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/c640fb90-6528-4eca-9bc6-48cb7645b233)
+
+
