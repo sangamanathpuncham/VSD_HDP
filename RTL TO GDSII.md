@@ -769,6 +769,7 @@ Looping construction:
 
 for and Generate for:
 ---
+1)mux_generate
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a4bcdcd2-c041-437b-90c0-f2b09735ddf6)
 
@@ -782,4 +783,30 @@ iverilog mux_generate.v tb_mux_generate.v
  
  ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/08fac435-6d49-486f-8ba0-451295cfe888)
 
+2)demux
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/afc0b811-b52f-41c0-adac-8d25bb1b0397)
+
+ iverilog demux_generate.v tb_demux_generate.v
+
+./a.out
+
+gtkwave tb_demux_generate.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d427a447-7163-4a9e-869f-2948f3b83a3e)
+
+Yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog demux_generate.v
+
+synth -top demux_generate
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+write_verilog -noattr demux_generate_net.v
+
+show
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e920d8d2-a982-4683-a379-0fe32b10e2f7)
