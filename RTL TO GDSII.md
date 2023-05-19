@@ -866,4 +866,44 @@ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5b2d818d-a36d-4d9f-8eb3-a0ce3d472080)
 
+Day:6
+---
+
+RTL simulation,synthesis and Gate leve simulation of 3-bit Ring Counter:
+---
+This project simulates the design of a 3-bit ring counter using verilog HDL. A ring counter works in a similar way as a shift register.
+
+The only difference is that the output of the last flip-flop is connected to the input of the first flip-flop. In this way, the counter 
+
+forms a ring and hence is called ring counter.In this design, three D-Flip-flops are used with clock and ori(override input) signals.
+
+Circuit:
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/19d951d9-9649-425c-85f1-2acb5e72d4e3)
+
+Working:
+--
+
+The counter is set to an initial state of '100' by the ORI signal. In the next positive edge of the clock, the values of the flip flops
+
+are shifted right and the output of last flip flop is sent to the first one. So, the next state becomes '010'. Similary after next 
+
+positive edge of clock, the state of the counter becomes '001'. This continues until the ORI is again high which will set the counter 
+
+back to '100'.
+
+Simulation:
+--
+iverilog rc.v tb_rc.v
+
+ ./a.out
+ 
+ gtkwave bit3_rc_out.vcd
+ 
+ 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/67a849af-4e18-4402-aee2-739c36fccf02)
+
+Synthesis:
+---
+
 
