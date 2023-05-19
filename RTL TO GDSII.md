@@ -769,6 +769,9 @@ Looping construction:
 
 for and Generate for:
 ---
+FOR
+---
+
 1)mux_generate
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a4bcdcd2-c041-437b-90c0-f2b09735ddf6)
@@ -821,5 +824,46 @@ GLS:
 gtkwave tb_demux_generate.vcd
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/c640fb90-6528-4eca-9bc6-48cb7645b233)
+
+Generate for
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/fef5f5aa-0280-41a5-a2c4-aaa87fe949cc)
+
+ iverilog rca.v fa.v tb_rca.v
+ 
+ ./a.out
+
+ gtkwave tb_rca.vcd
+ 
+ ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/c562d3c5-807d-4c5b-a38d-7b431bbc5b12)
+
+Yosys
+
+read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+read_verilog rca.v fa.v
+
+synth -top rca
+
+abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+
+write_verilog -noattr rcv_net.v
+
+show fa
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d0d6b652-b41b-458b-a1ff-f97b569aef41)
+
+
+GLS:
+---
+
+iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_sc_hd.v rcv_net.v tb_rca.v
+
+ ./a.out
+ 
+  gtkwave tb_rca.vcd
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5b2d818d-a36d-4d9f-8eb3-a0ce3d472080)
 
 
