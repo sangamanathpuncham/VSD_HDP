@@ -764,4 +764,22 @@ show
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/29a81dbd-a4e9-4576-9876-a10cf46106de)
 
+Looping construction:
+---
+
+for and Generate for:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a4bcdcd2-c041-437b-90c0-f2b09735ddf6)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d94666be-1cb0-4b36-a9ef-3afe475a3f87)
+
+iverilog mux_generate.v tb_mux_generate.v
+
+./a.out
+
+ gtkwave tb_mux_generate.vcd
+ 
+ ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/08fac435-6d49-486f-8ba0-451295cfe888)
+
 
