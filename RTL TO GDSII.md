@@ -952,6 +952,32 @@ Delay information from every input pin to every output pin which it can control.
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/2cb98062-c5ff-494a-886a-a3b432e17315)
 
+Timing Path
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/66cebb09-509a-4b3e-8fe9-400f52939fb5)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/79720b10-dc49-4b1b-b12e-4100b1481b69)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d988d9c3-0b7e-4d0a-a45e-3053fceb87d5)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a40cc2fe-052a-43e9-8c83-d27eeb17e4f6)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/9e856651-b670-4661-83b3-24f9b718eab7)
+
+
+.LIB:
+---
+
+It contains * lib name * units * pvt conditions * delay information in the form of LUP table
+
+std cell info like area , leakage power , pin info , funtionality of the output pin
+
+timing sence of the pin (unateness and clk)
 
 
 
