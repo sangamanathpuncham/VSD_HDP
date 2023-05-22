@@ -928,5 +928,40 @@ GLS:
 
 
 
+Day:7
+---
+Basic STA:
+----
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/9738bd74-3482-425e-8da8-7ac196df81b6)
+
+Delay :
+---
+
+Delay is the function of input trasition and output load.
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/39b5adb8-6afd-4077-b545-54b892255af8)
+
+
+Timing Arc :
+---
+
+Delay information from every input pin to every output pin which it can control.
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7f776785-829c-4822-865e-50347927be20)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/2cb98062-c5ff-494a-886a-a3b432e17315)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
