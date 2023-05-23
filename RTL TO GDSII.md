@@ -1069,6 +1069,37 @@ Query the cell in the Design:
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/8bf186ee-dded-4922-a077-3525bafd2e47)
 
 
+Creation of the clock
+---
+
+at port and pin
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/ee6edf30-3093-4aed-9c78-2695267772fe)
+
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/ce20cc1c-9b2e-4961-bf33-e8bbe44684f0)
+
+Wave form creation
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d36de97e-9892-4342-92b8-1d4db8cc3e9d)
+
+I/O Constraints:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d06cb938-9f8c-4dde-b283-0d63e2c20543)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/719d9c6e-9c1e-4022-a91b-2f1601091ae8)
+
+Summary:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/701bd6b9-9641-45b5-8e39-741677a8e0f0)
+
+DC lab for constrain:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/82cd7d02-ac57-4fb8-937e-a02e40b26378)
+
 
 
 
