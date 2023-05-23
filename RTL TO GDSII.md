@@ -928,7 +928,7 @@ GLS:
 
 
 
-Day:7
+Day:7(day 2 vsd-iat)
 ---
 Basic STA:
 ----
@@ -978,6 +978,96 @@ It contains * lib name * units * pvt conditions * delay information in the form 
 std cell info like area , leakage power , pin info , funtionality of the output pin
 
 timing sence of the pin (unateness and clk)
+
+Exploring the .lib in DC Compiler:
+----
+csh
+
+dc_shell
+
+configure the lib in synapsys dc 
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/79cd293a-92a5-465b-9574-d752992f4162)
+
+setup calculation with sampling point
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/645df29f-6081-49e5-83ca-bf7a9a7c94f9)
+
+How to check the properties of .lib with respect to DC shell:
+---
+
+1)list lib
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/dd09ce25-b57b-4470-82d0-c0591322d3e6)
+
+2)list the gates present in lib
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5147ab06-e1fa-4e39-93c6-0eb96bb45f90)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/90f8b8aa-49ac-4c4b-9edb-ad0f0dfa3f60)
+
+3)display the pins and fuctionality
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/48652bea-fab4-4e07-b1b7-e0aa1986d1e8)
+
+4)create list of cells
+
+sh gvim my_script.tcl
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/6606fac0-4c9e-4791-86b4-2464f783b78c)
+
+5)to know thw capacitance,area,clock
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0c7828e7-52d3-46e2-aa4d-4d2692d9bdc0)
+
+
+Day 8 (day 3 vsd-iat)
+---
+
+Advanced constraints:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/9f7a2f94-aff7-4719-b16d-d29a9b68b49b)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/290854a6-43c8-4379-abef-0aa29e89669f)
+
+Clock jitter:
+---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/440e6daa-dedc-45e5-8223-a3a725102dfb)
+
+Clock skew:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7b164f9b-5592-40a0-aec0-70fcb6f8958f)
+
+Clock Modelling:
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/193d7f91-4129-42cc-89c2-68f0d00b05d8)
+
+Summary
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7e4a2530-049e-42f9-b919-17d54ef4c664)
+
+How to constrain the Design:
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/128ad86a-ac52-4886-b910-2f4e2ba65de2)
+
+Query the ports in the design:
+----
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a843e101-0d20-4475-857d-f100ac49abbc)
+
+Query the clock 
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f1a8e5b3-8857-42a5-b011-186f1daaee07)
+
+
+Query the cell in the Design:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/8bf186ee-dded-4922-a077-3525bafd2e47)
+
 
 
 
