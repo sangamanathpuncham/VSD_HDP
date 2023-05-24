@@ -1190,9 +1190,9 @@ Hold
     
 IO delay
     
-    ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/50998f6a-3baa-46e1-80d1-4adf767618f4)
+ ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/50998f6a-3baa-46e1-80d1-4adf767618f4)
     
-    ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/67a7106f-b9b7-444a-b592-8689f6c8e3f3)
+ ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/67a7106f-b9b7-444a-b592-8689f6c8e3f3)
 
 
     
