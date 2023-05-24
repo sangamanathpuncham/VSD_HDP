@@ -1136,7 +1136,8 @@ remove_clock <name of the clock>
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/804b2abb-9af1-4bc3-85ed-08c3d96ab0bc)
 
-.TCL for reaching the clock to every point:
+
+R2R Constarining:
 ---
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/bc4f7d09-ac2c-43b6-a17a-2827849d427c)
