@@ -1227,5 +1227,11 @@ report_timing -to <destination pin name: OUT_Y> -trans -cap -nosplit > <name out
 report_port -verbose;
     
 
-
+Generated Clock:
+----
+    
+    
+    
+    
+    
 
