@@ -1113,10 +1113,55 @@ DC query about pin
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/566ab848-d307-4ef2-a652-f535c552aba3)
 
 
+Clock creation in DC
+---
+
+get_ports *
+
+current_design 
+
+create_clock -name myclk -per 10 [get_ports clk]
+
+get_clock *
+
+report_clock *
+
+remove_clock <name of the clock>
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/11781074-4085-4de0-8c4a-768e3c1b1f99)
 
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/58773580-1d55-4e94-8fd9-de195a15fb33)
 
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/804b2abb-9af1-4bc3-85ed-08c3d96ab0bc)
+
+.TCL for reaching the clock to every point:
+---
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/bc4f7d09-ac2c-43b6-a17a-2827849d427c)
+
+
+Constraining the Delays
+-----
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b2a061a5-f0d0-4d58-8258-c63217674a50)
+
+ create_clock -name myclk -per 10 [get_ports clk]
+    
+        set_clock_latency -source 1 [get_clocks myclk]
+        
+        set_clock_latency  2 [get_clocks myclk]
+        
+        set_clock_uncertainty -setup 0.5 [get_clocks myclk]
+        
+        set_clock_uncertainty -hold 0.2 [get_clocks myclk] 
+    
+        
+    
+ 
+    
+    
 
 
 
