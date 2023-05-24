@@ -1105,7 +1105,12 @@ DC lab for constrain:
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/9266ba0a-7c71-480c-874e-8ab4162dd07e)
 
+DC query about pin
+---
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/3c6d8b5b-425a-4b2e-b48d-d08a8caec88c)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/566ab848-d307-4ef2-a652-f535c552aba3)
 
 
 
