@@ -1199,18 +1199,31 @@ IO delay
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/5b1f3010-28ee-42ee-b5ee-b07178e623ba)
 
 set_input_delay -max <value: 5> -clock [get_clocks <name: MYCLK>] [get_ports <name: IN_A>];
+    
 set_input_delay -max <value: 5> -clock [get_clocks <name: MYCLK>] [get_ports <name: IN_B>];
+    
 set_input_delay -min <value: 1> -clock [get_clocks <name: MYCLK>] [get_ports <name: IN_A>];
+    
 set_input_delay -min <value: 1> -clock [get_clocks <name: MYCLK>] [get_ports <name: IN_B>];
+    
 set_input_transition -max <value: 0.3> [get_ports <name: IN_A>];
+    
 set_input_transition -max <value: 0.3> [get_ports <name: IN_B>];
+    
 set_input_transition -min <value: 0.1> [get_ports <name: IN_A>];
+    
 set_input_transition -min <value: 0.1> [get_ports <name: IN_B>];
+    
 report_timing -from <source pin name: IN_A> -trans -cap -nosplit > <name output file: a_trans>;
+    
 set_output_delay -max <value: 5> -clock [get_clocks <name: MYCLK>] [get_ports <name: OUT_Y>];
+    
 set_output_delay -min <value: 1> -clock [get_clocks <name: MYCLK>] [get_ports <name: OUT_Y>];
+    
 set_load -max <value: 0.4> [get_ports <name: OUT_Y>];
+    
 report_timing -to <destination pin name: OUT_Y> -trans -cap -nosplit > <name output file: out_load>;
+    
 report_port -verbose;
     
 
