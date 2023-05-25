@@ -1282,4 +1282,12 @@ Virtual clock , Max latency , rise and fall IO delays:
    
  ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/11646d1f-fc64-4f7d-8469-4e742dae4cb8)
 
+    
+ Virtual Clock:
+  -----  
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/bf2a5cb4-58f2-4887-bda3-144db3b0df67)
+
+
+
 
