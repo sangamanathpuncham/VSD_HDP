@@ -1146,7 +1146,8 @@ R2R Constarining:
 Constraining the Delays
 -----
     
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b2a061a5-f0d0-4d58-8258-c63217674a50)
+    
+  ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b2a061a5-f0d0-4d58-8258-c63217674a50)
 
     
         create_clock -name myclk -per 10 [get_ports clk]
@@ -1163,15 +1164,15 @@ Constraining the Delays
     
         report_timing
     
-        ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d88b6b32-8d5a-436f-82b0-e62b77909784)
+   ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d88b6b32-8d5a-436f-82b0-e62b77909784)
         
-        ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/503f0a89-3c41-4cc9-962b-2febd58f090b)
+   ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/503f0a89-3c41-4cc9-962b-2febd58f090b)
             
-        ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/96cafbf1-ebda-4681-a274-ee29fb105532)
+   ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/96cafbf1-ebda-4681-a274-ee29fb105532)
 
-        ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a46d739a-38cd-4f2e-8e31-a2697a33c6dd)
+   ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/a46d739a-38cd-4f2e-8e31-a2697a33c6dd)
         
-        ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b97f789a-0a8b-4328-8693-f41248621f6b)
+   ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b97f789a-0a8b-4328-8693-f41248621f6b)
 Setup
     
     ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/9fd77dcb-5db4-4c40-a929-8ce0bedb18d8)
