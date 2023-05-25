@@ -1229,7 +1229,24 @@ report_port -verbose;
 
 Generated Clock:
 ----
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/49b1be34-ac8a-457f-8487-a267702a3dec)
+
     
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/cb704428-b3ba-4f4f-a029-955df466ad4f)
+
+    
+Virtual clock , Max latency , rise and fall IO delays:
+-----
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/8b946828-c947-4c8f-a4d5-5742c4b6810b)
+    
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/c801fea5-925a-473f-b305-5463880ab116)
+
+
+
+
     
     
     
