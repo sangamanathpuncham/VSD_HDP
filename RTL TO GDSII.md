@@ -1302,7 +1302,8 @@ Constraining my Design:
 script_rc.tcl
 -------
     
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/fbc50b2f-cfa1-447a-a465-d47be3a4acc5)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/374ca56e-0445-4b65-b39d-df66f0d570c2)
+
 
 OpenSTA 
  ----
@@ -1313,10 +1314,11 @@ OpenSTA
  Reports:
  -----
     
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/40d7ed94-1c03-4960-b2f0-637f1ddd82e0)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b92831c9-9703-4733-9b70-f896e72c09ea)
+   
 
-    
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f06decd5-6e73-40b7-a351-c85054d64c14)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/1b79a7dd-8eac-4c0e-b640-31538c77bc9f)
+
 
     
     
