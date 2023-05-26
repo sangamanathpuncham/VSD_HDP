@@ -1296,26 +1296,26 @@ Constraining my Design:
 .sdc
 -----
     
-    ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0de3925b-7de4-4b02-8814-e6239ebfb97c)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0de3925b-7de4-4b02-8814-e6239ebfb97c)
 
 script_rc.tcl
 -------
     
-    ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/fbc50b2f-cfa1-447a-a465-d47be3a4acc5)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/fbc50b2f-cfa1-447a-a465-d47be3a4acc5)
 
 OpenSTA 
  ----
     
-    ./sta script_rc.tcl
+./sta script_rc.tcl
     
     
  Reports:
  -----
     
-    ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/40d7ed94-1c03-4960-b2f0-637f1ddd82e0)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/40d7ed94-1c03-4960-b2f0-637f1ddd82e0)
 
     
-    ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f06decd5-6e73-40b7-a351-c85054d64c14)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/f06decd5-6e73-40b7-a351-c85054d64c14)
 
     
     
