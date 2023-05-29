@@ -893,6 +893,8 @@ State diagram is used to describe the behaviour of the digital sequential circui
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/c3bffb56-f7dd-41dd-80eb-144a313ff0c6)
 
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d112e3af-c7aa-419e-94f8-44621fa036ed)
+
 
 Circuit:
 ---
