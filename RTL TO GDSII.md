@@ -904,14 +904,15 @@ Circuit:
 
 Simulation:
 --
-iverilog rc.v tb_rc.v
+iverilog ring.v tb_ring.v
 
 ./a.out
  
-gtkwave bit3_rc_out.vcd
+gtkwave dump.vcd
  
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0d221b15-a332-4cbc-b8de-a75255c9e37e)
  
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/67a849af-4e18-4402-aee2-739c36fccf02)
+
 
 Synthesis:
 ---
@@ -920,9 +921,9 @@ yosys
 
 read_liberty -lib ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
-read_verilog rc.v
+read_verilog ring.v
  
-synth -top bit3_rv
+synth -top ring_counter
 
 dfflibmap -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
  
@@ -930,10 +931,17 @@ abc -liberty ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
  
 show
 
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/03cb79b8-ff29-4ed4-a774-c47dd2cfcbe9)
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/0578540a-3697-41ac-8c63-bf0d5a345b5c)
+
 
 GLS:
 ---
+
+ iverilog -DFUNCTIONAL -DUNIT_DELAY=#0 ../sky130RTLDesignAndSynthesisWorkshop/ring/iiitb_4bitrc/verilog_model/primitives.v ../sky130RTLDesignAndSynthesisWorkshop/ring/iiitb_4bitrc/verilog_model/sky130_fd_sc_hd.v ring_synth_net1.v tb_ringc.v
+ 
+ ./a.out
+ 
+ gtkwave dump.vcd
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/38da23cb-f9ef-4a9b-af47-2fbcd480ccdc)
 
