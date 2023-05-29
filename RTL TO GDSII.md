@@ -869,36 +869,44 @@ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_
 Day:6
 ---
 
-RTL simulation,synthesis and Gate leve simulation of 3-bit Ring Counter:
+RTL simulation,synthesis and Gate leve simulation of 4-bit Ring Counter:
 ---
-This project simulates the design of a 3-bit ring counter using verilog HDL. A ring counter works in a similar way as a shift register.
+This project simulates the designed 4 bit ring counter. A ring counter is a digital sequential circuit that recirculates the same data throughout the circuit. It is one of the 
 
-The only difference is that the output of the last flip-flop is connected to the input of the first flip-flop. In this way, the counter 
+applications of shift registers.
 
-forms a ring and hence is called ring counter.In this design, three D-Flip-flops are used with clock and ori(override input) signals.
+A ring counter is a synchronous counter which transfers the same data throughout it. It is a typical application of shift register and can be designed using either D or JK flip-flops
+
+(FFs). Here, a 4-bit ring counter is designed by a series of 4 D-FFs connected together in feedback manner. That means the output of the last FF is connected to the input of the first
+
+FF. The clock signal is applied to all the FFs simultaneously.
+
+Initially all the FFs are at RESET state. When the PRESET is applied, the input of the ring counter becomes 1. Now the output of the first FF (Q3) is 1 and other FF outputs (Q2, Q1 and 
+
+Q0) will be low. Then for the next clock signal, Q2 becomes 1 and others outputs will be low. In this way, as the clock input changes, the outputs change and the data sequence rotates in
+
+the ring counter.
+
+
+
+State diagram is used to describe the behaviour of the digital sequential circuits. It shows the transitions of states from one state to the next as well as the output for a given input.
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/c3bffb56-f7dd-41dd-80eb-144a313ff0c6)
+
 
 Circuit:
 ---
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/19d951d9-9649-425c-85f1-2acb5e72d4e3)
 
-Working:
---
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/54e3120a-99d2-47f4-b6e7-5f75724ed393)
 
-The counter is set to an initial state of '100' by the ORI signal. In the next positive edge of the clock, the values of the flip flops
-
-are shifted right and the output of last flip flop is sent to the first one. So, the next state becomes '010'. Similary after next 
-
-positive edge of clock, the state of the counter becomes '001'. This continues until the ORI is again high which will set the counter 
-
-back to '100'.
 
 Simulation:
 --
 iverilog rc.v tb_rc.v
 
- ./a.out
+./a.out
  
- gtkwave bit3_rc_out.vcd
+gtkwave bit3_rc_out.vcd
  
  
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/67a849af-4e18-4402-aee2-739c36fccf02)
