@@ -1260,8 +1260,8 @@ OpenSTA
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e870d5f4-c68a-4ccf-abc4-47f86bdec7ba)
 
 
-Circuit Design using sky130(ngspice):
-------
+3)Circuit Design using sky130(ngspice):
+   ------
 
 Day 1:
     
