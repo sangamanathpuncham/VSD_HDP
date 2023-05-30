@@ -1109,10 +1109,7 @@ I/O Constraints:
 
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/719d9c6e-9c1e-4022-a91b-2f1601091ae8)
 
-Summary:
----
 
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/701bd6b9-9641-45b5-8e39-741677a8e0f0)
 
 DC lab for constrain:
 ---
