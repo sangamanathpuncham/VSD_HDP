@@ -1369,13 +1369,27 @@ Cross-sectional view of nmos
 
 Working of Nmos:
 -----
+
+1)Depletion
     
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/b06ec9b0-84c3-40d6-b462-28aadfe63e42)
+2)Accumulation
+    
+3)Strong inversion
     
     
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/4d44c886-d6ea-44af-bf65-80523c3bb780)
+
+Bulk connected to other than gnd:
+--------
     
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d25d8459-d787-498e-915a-a16547f9081a)
+
     
+Regions of Operation:
+-----
     
+
     
     
 
