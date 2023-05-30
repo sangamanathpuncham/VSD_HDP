@@ -868,8 +868,8 @@ iverilog ../my_lib/verilog_model/primitives.v ../my_lib/verilog_model/sky130_fd_
 
 
 
-Advanced Synthesis and STA with DC:
-----
+2)Advanced Synthesis and STA with DC:
+   ----
  
 Basic STA:
 ----
