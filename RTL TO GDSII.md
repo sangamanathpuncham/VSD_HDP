@@ -1341,7 +1341,12 @@ OpenSTA
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e870d5f4-c68a-4ccf-abc4-47f86bdec7ba)
 
 
-
+Circuit Design using sky130(ngspice):
+------
+    
+    Why we need circuit design and spice simulation beacause we are making timing claculation,cts other timing information comes from the LUP table that will be updated by 
+    
+    circuit design and spice simulation (by tuning the w/l ration of pmos and nmos)
     
     
     
