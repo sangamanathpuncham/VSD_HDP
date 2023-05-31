@@ -1308,7 +1308,50 @@ Bulk connected to other than gnd:
 Regions of Operation:
 -----
     
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/d108df26-2c63-41a4-8ae5-b19343942cd5)
+    
+Drift currect and Diffusion:
+-----
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/ac3b10d3-5285-4604-8d21-9ca44e35c00c)
+
+Equation of Current:
+-----
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/6b3a060c-9404-4a06-b7ed-dbf269e250fb)
+ 
+Linear region:
+------
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/02fb63a7-6038-4d71-b903-0dfd346e1d0b)
+    
+Saturation Region:
+-----
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7942a388-af09-4293-8895-80ebdd34437e)
 
     
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/26171963-70bc-4b12-b347-21e70a9134a9)
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/93284b81-fcf2-406a-be8f-82ab382f77b0)
+
+Introduction to Spice:
+-------
     
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/dc65daa8-b1f2-4a3e-8205-01dc4092422b)
+
+Ceating Spice nelist:
+------
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/012bf35d-b85b-4a13-bee8-138226ec80dc)
+
+Define Tecnology Parameter:
+------
+
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/af2b816f-01d4-45c1-9736-45294831284a)
+    
+    
+    
+![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/3d444791-ccb0-47cc-a443-1a28391f0b33)
+
 
