@@ -32,7 +32,9 @@ $ cd yosys-master
 
 $ sudo apt install make (If make is not installed please install it) 
 
-$ sudo apt-get install build-essential clang bison flex \
+
+
+    sudo apt-get install build-essential clang bison flex \
 
     libreadline-dev gawk tcl-dev libffi-dev git \
     
