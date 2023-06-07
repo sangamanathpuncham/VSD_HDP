@@ -1230,35 +1230,6 @@ Virtual clock , Max latency , rise and fall IO delays:
 ![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/bf2a5cb4-58f2-4887-bda3-144db3b0df67)
 
 
-Constraining my Design:
-----
- 
-.sdc
------
-    
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/301720a8-7a6c-41ea-a0f6-4ed9ad108d8c)
 
-
-
-script_rc.tcl
--------
-    
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/7afb8dcf-0132-4049-8fe2-e8e657d8f11b)
-
-
-
-OpenSTA 
- ----
-    
-./sta script_rc.tcl
-    
-    
- Reports:
- -----
-    
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/05fbee20-40a1-43e4-914b-efa429386f7f)
-   
-
-![image](https://github.com/sangamanathpuncham/VSD_HDP/assets/132802184/e870d5f4-c68a-4ccf-abc4-47f86bdec7ba)
 
 
