@@ -94,7 +94,7 @@ $ mkdir release
 
 $ cd release
 
-$ ../configure  --with-x --with-readline=yes --disable-debug
+$ ../configure  --with-x --with-readline=yes --disable-debug ////this is updated ../configure --with-x --enable-xspice --disable-debug --enable-cider --with-readline=yes --enable-openmp
 
 $ make
 
