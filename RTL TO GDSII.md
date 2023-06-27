@@ -139,9 +139,13 @@ $   sudo apt-get install mesa-common-dev libglu1-mesa-dev
 $   sudo apt-get install libncurses-dev
 
 git clone git://opencircuitdesign.com/magic
+
 $  cd magic
+
 $	 ./configure
+
 $  make
+
 $  sudo make install
 
 Day:1
